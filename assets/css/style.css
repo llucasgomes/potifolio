@@ -1,0 +1,190 @@
+body {
+    width: 100vw;
+
+
+}
+
+/* CABECALHO */
+.cabecalho {
+    width: 100%;
+    height: 70px;
+    background-color: rgb(0, 60, 255);
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+
+}
+
+.foto-de-perfil {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foto-de-perfil img {
+    width: 7rem;
+    border-radius: 50%;
+
+
+}
+
+.menu-navegacao {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-navegacao ul {
+    display: flex;
+}
+.menu-navegacao ul a:hover{
+    color: rgb(15, 235, 15);
+}
+
+.menu-navegacao ul li {
+    font-size: 2rem;
+    padding: 1.5rem;
+}
+
+
+.rede-social {
+    display: flex;
+    gap: 2rem;
+    padding: 0.5rem;
+}
+
+.rede-social .linkedin img,
+.rede-social .git-hub img {
+    width: 35px;
+}
+
+/* CONTEUDO */
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteudo .titulo-descritivo {
+    width: 70%;
+    text-align: center;
+    font-size: 2.5rem;
+    padding: 3rem;
+    letter-spacing: 0.2rem;
+    margin-top: 70px;
+}
+
+.conteudo .titulo {
+    font-size: 3rem;
+    padding: 3rem 0;
+}
+
+/* PROJETOS */
+.container-projetos {
+    width: 90vw;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-rows: repeat(auto,300px);
+    grid-gap: 10px;
+    background-color: white;
+    padding: 3rem;
+    justify-items: center;
+    border-radius: 1rem;
+
+}
+
+.container-projetos .projeto-item {
+    width: 250px;
+    align-items: center;
+    box-shadow: 0.5rem 0.5rem 1rem black;
+}
+
+.projeto-imagem.projeto1 {
+    width: 100%;
+    height: 20rem;
+    background: url(/assets/image/bote.png) center center no-repeat;
+    margin-bottom: 1rem;
+
+}
+
+.projeto-imagem.projeto2 {
+    width: 100%;
+    height: 20rem;
+    background: url(/assets/image/bote.png) center center no-repeat;
+    margin-bottom: 1rem;
+}
+
+.projeto-imagem.projeto3 {
+    width: 100%;
+    height: 20rem;
+    background: url(/assets/image/bote.png) center center no-repeat;
+    margin-bottom: 1rem;
+}
+
+.projeto-imagem.projeto4 {
+    width: 100%;
+    height: 20rem;
+    background: url(/assets/image/bote.png) center center no-repeat;
+    margin-bottom: 1rem;
+
+}
+
+.projeto-imagem > h2 {
+    padding-top: 60%;
+    font-size: 2.5rem;
+    text-align: center;
+    bottom: 1rem;
+}
+.projeto-item a p{
+    text-align: center;
+    padding: 0.5rem 1rem;
+    font-size: 1.7rem;
+    color: black;
+}
+
+/* CONHECIMENTOS */
+
+.conhecimentos{
+    width: 90vw;
+    
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-rows: repeat(auto,150px);
+    grid-gap: 2rem;
+    background-color: #5C0785;
+    padding: 3rem;
+    justify-items: center;
+    border-radius: 1rem;
+}
+.conhecimentos-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 250px;
+    height: 20rem;
+    align-items: center;
+    
+}
+
+.conhecimentos-item img{
+    width: 7rem;
+}
+.conhecimentos-item p{
+    padding: 0.5rem 1rem;
+    font-size: 1.7rem;
+    text-align: center;
+    color: white;
+    
+}
+.conhecimentos-item h3{
+    font-size: 2rem;
+    color: white;
+}
+
+.nao-tem{
+    filter: contrast(175%) brightness(50%);
+}
+
